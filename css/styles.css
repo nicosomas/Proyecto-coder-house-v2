@@ -124,7 +124,7 @@ ion-icon {
 
 .image-text-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
   padding: 50px;
   background-color: #f2f2f2;
@@ -133,7 +133,7 @@ ion-icon {
 .img-fluid {
   max-width: 500px;
   height: auto;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .texto-grande {
@@ -169,7 +169,7 @@ ion-icon {
 }
 
 .btn-primary:hover, .btn-btn-primary:hover {
-  background-color: #3a95fcbe;
+  background-color: #4690e6be;
 }
 
 .textSection {
