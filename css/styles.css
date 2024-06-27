@@ -3,7 +3,7 @@ body {
   background-color: #bbbbbb;
   font-weight: 500;
   font-style: normal;
-  text-align: center; 
+  text-align: center;
 }
 
 h1 {
@@ -31,13 +31,13 @@ img, .product-content .product-1 {
 }
 
 header, footer {
-  background-color: rgba(250, 250, 250, 0.527);
+  background-color: rgba(250, 250, 250, 0.9);
+  padding: 10px 30px;
 }
 
 header {
   position: sticky;
-  padding: 30px;
-  top: 0px;
+  top: 0;
   z-index: 10;
 }
 
@@ -52,7 +52,6 @@ header {
 }
 
 .card {
-  --bs-card-bg: $card-bg;
   width: 18rem;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -125,6 +124,7 @@ ion-icon {
 
 .image-text-container {
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding: 50px;
   background-color: #f2f2f2;
@@ -157,8 +157,19 @@ ion-icon {
   cursor: pointer;
 }
 
-.btn-btn-primary {
-  color: black;
+.btn-primary, .btn-btn-primary {
+  background-color: #0b0c0c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-primary:hover, .btn-btn-primary:hover {
+  background-color: #3a95fcbe;
 }
 
 .textSection {
@@ -217,38 +228,29 @@ textarea.form-control {
   resize: vertical;
 }
 
-.btn-primary {
-  background-color: #0b0c0c;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-}
-
-.btn-primary:hover {
-  background-color: #3a95fcbe;
-}
-.btt-2{
-  color: #000000;
-}
-
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
     padding: 10px;
   }
-  .image-container {
+  .image-text-container {
     flex-direction: column;
-    align-items: stretch;
+    padding: 20px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   body {
     font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
   }
   .container {
     padding: 5px;
