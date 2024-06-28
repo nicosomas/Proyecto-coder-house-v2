@@ -1,13 +1,13 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #bbbbbb;
+  background-color: #0a0a0a;
   font-weight: 500;
   font-style: normal;
   text-align: center;
 }
 
 h1 {
-  color: #031926;
+  color: #f8f8f8;
   text-align: center;
 }
 
@@ -15,14 +15,20 @@ h2, .texto-grande h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
+  color: #f8f8f8;
 }
 
 h5 {
   font-style: oblique;
+  color: #f8f8f8;
 }
-
+h6{
+  color: #f8f8f8;
+}
 p {
   margin-top: 10px;
+  color: #f2f2f2;
+  font: caption;
 }
 
 img, .product-content .product-1 {
@@ -31,7 +37,7 @@ img, .product-content .product-1 {
 }
 
 header, footer {
-  background-color: rgba(250, 250, 250, 0.9);
+  background-color: rgba(51, 51, 51, 0.9);
   padding: 10px 30px;
 }
 
@@ -94,7 +100,7 @@ header {
 
 .card-link {
   display: block;
-  color: #0b0c0c;
+  color: #7e7e7e;
   text-decoration: none;
   margin-top: 10px;
 }
@@ -114,7 +120,9 @@ ion-icon {
 .product-1:hover {
   transform: scale(1.1);
 }
-
+.product-txt{
+  color: #f2f2f2;
+}
 .product-content {
   display: flex;
   justify-content: flex-start;
@@ -127,7 +135,7 @@ ion-icon {
   flex-direction: row-reverse;
   align-items: center;
   padding: 50px;
-  background-color: #f2f2f2;
+  background-color: #4d4d4d;
 }
 
 .img-fluid {
